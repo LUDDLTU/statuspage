@@ -15,9 +15,11 @@
         </style>
     </head>
     <body>
-        <div class="jumbotron">
-            <h1>{{ title }} <small>{{ date }}</small></h1>
-            {{ content }}
+        <div class="container">
+            <div class="jumbotron">
+                <h1>{{ site.title }} <small>{{ site.date }}</small></h1>
+                {{ content }}
+            </div>
         </div>
     </body>
 </html>
