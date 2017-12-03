@@ -28,7 +28,7 @@
             {% for post in site.services %}
                 <tr>
                     <td>{{ post.title }}</td>
-                    <td class="text-right"><b>{{ post.status }}</b><br>{{ post.content }}</td>
+                    <td class="text-right"><b class="text-{{ post.color | default: 'success'}}">{{ post.status }}</b><br>{{ post.content }}</td>
                     <td class="text-right">{{ post.date | date_to_string }}</td>
                 </tr>
             {% endfor %}
