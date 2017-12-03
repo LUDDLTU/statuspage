@@ -13,9 +13,29 @@
     <body>
         <div class="container">
             <div class="jumbotron">
-                <h1>Luleå Academic Computer Society</h1>
+                <h1>LUDD Status</h1>
                 <p>All systems currently operational to some degree (Updated 2017-12-03)</p>
             </div>
+
+            <h2>Services</h2>
+            <table class="table table-striped">
+            {% for post in site.services %}
+                <tr>
+                    <td>{{ post.title }}</td>
+                    <td class="text-right">{{ post.status }}</td>
+                    <td class="text-left">{{ post.date | date_to_string }}</td>
+                </tr>
+            {% endfor %}
+            </table>
+
+            <hr/>
+
+            <h2>Incidents</h2>
+            {% for post in site.incidents %}
+            <h4>{{ post.title }} <small>{{ post.date | date_to_string }}</small></h4>
+            <div>{{ post.content }}</div>
+            </div>
+            {% endfor %}
         </div>
     </body>
 </html>
