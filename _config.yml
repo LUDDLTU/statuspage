@@ -1,0 +1,12 @@
+timezone: Europe/Stockholm
+defaults:
+  - scope:
+      path: ""
+      type: "incidents"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "default"
