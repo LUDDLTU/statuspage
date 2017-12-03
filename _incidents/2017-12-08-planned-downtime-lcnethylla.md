@@ -1,12 +1,14 @@
 ---
-title: '[Scheduled] Downtime lcnet non-racked servers'
+title: 'Downtime lcnet non-racked servers'
+date: '2017-12-08 19:00:00 +0100'
+status: 'Scheduled'
+scope: 'LCNet/non-racked servers'
 ---
-Status: Scheduled
-Scope: Colocation
 
 **Description:**
 
     All non-racked servers will be moved to a new shelf, and power and network will be recabled.
+    Reason for this is to prepare the data center for new hardware.
 
 **Impact:**
 
