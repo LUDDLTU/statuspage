@@ -1,8 +1,9 @@
 ---
 title: 'Downtime lcnet non-racked servers'
 date: '2017-12-08 19:00:00 +0100'
-status: 'Scheduled'
-scope: 'LCNet/non-racked servers'
+ticket:
+  status: 'Scheduled'
+  scope: 'LCNet/non-racked servers'
 ---
 
 **Description:**

@@ -49,9 +49,9 @@
             <div class="incident">
                 <h2><a href="{{ post.url }}">{{ post.title }}</a> <br/><small>{{ post.date }}</small></h2>
                 <table class="table table-striped">
-                    {% for field in post %}
+                    {% for field in post.ticket %}
                     <tr>
-                        <td>{{ post }}</td>
+                        <td>{{ field[1] }}</td>
                         <td><b>{{ field[0] }}</b></td>
                     </tr>
                     {% endfor %}
