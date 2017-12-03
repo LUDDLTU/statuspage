@@ -12,7 +12,7 @@
                 padding-top: 200px;
                 padding-bottom: 200px;
             }
-            .incident {
+            .ticket {
                 margin-top: 50px;
             }
             .jumbotron {
@@ -43,15 +43,15 @@
 
             <hr/>
 
-            <h2>Incidents</h2>
-            {% assign incidents = (site.incidents | sort: 'date') | reverse %}
-            {% for post in incidents %}
-            <div class="incident">
+            <h2>Tickets</h2>
+            {% assign tickets = (site.tickets | sort: 'date') | reverse %}
+            {% for post in tickets %}
+            <div class="ticket">
                 <h2><a href="{{ post.url }}">{{ post.title }}</a> <br/><small>{{ post.date }}</small></h2>
                 <table class="table table-striped">
                     {% for field in post.ticket %}
                     <tr>
-                        <td style="width: 100px">{{ field[0] }}</td>
+                        <td style="width: 150px">{{ field[0] }}</td>
                         <td><b>{{ field[1] }}</b></td>
                     </tr>
                     {% endfor %}

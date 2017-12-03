@@ -3,12 +3,12 @@ timezone: Europe/Stockholm
 collections:
   services:
     output: false
-  incidents:
+  tickets:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: incidents
+      type: tickets
     values:
-      layout: incident
+      layout: ticket
