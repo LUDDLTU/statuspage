@@ -1,7 +1,8 @@
 timezone: Europe/Stockholm
 
 collections:
-  - services
+  services:
+    output: false
   incidents:
     output: true
 
