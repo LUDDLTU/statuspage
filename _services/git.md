@@ -1,4 +1,4 @@
 ---
 title: 'git.ludd.ltu.se'
-status: 'Running. OK'
+status: 'running. OK'
 ---

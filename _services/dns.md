@@ -1,4 +1,4 @@
 ---
 title: 'dns servers'
-status: 'Naming things. OK'
+status: 'naming things. OK'
 ---
