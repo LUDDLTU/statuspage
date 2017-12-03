@@ -14,14 +14,19 @@
             .incident {
                 margin-top: 50px;
             }
+            .jumbotron {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
         </style>
     </head>
     <body>
         <div class="container">
-            <h1>LUDD Status</h1>
-            <p>All systems currently operational to some degree (Updated 2017-12-03)</p>
-            <p>Visit <a href="https://www.ludd.ltu.se">www.ludd.ltu.se</a> for our website</p>
-
+            <div class="jumbotron">
+                <h1>LUDD Status</h1>
+                <p>All systems currently operational to some degree (Updated 2017-12-03)</p>
+                <p>Visit <a href="https://www.ludd.ltu.se">www.ludd.ltu.se</a> for our website</p>
+            </div>
             <h2>Services</h2>
             <table class="table table-striped">
             {% for post in site.services %}
