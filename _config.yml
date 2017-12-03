@@ -2,4 +2,12 @@ timezone: Europe/Stockholm
 
 collections:
   - services
-  - incidents
+  incidents:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: incidents
+    values:
+      layout: incident

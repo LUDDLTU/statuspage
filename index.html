@@ -44,9 +44,10 @@
             <hr/>
 
             <h2>Incidents</h2>
-            {% for post in site.incidents %}
+            {% assign incidents = (site.incidents | sort: 'date') | reverse %}
+            {% for post in incidents %}
             <div class="incident">
-                <h2>{{ post.title }} <small>{{ post.date | date_to_string }}</small></h2>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date_to_string }}</small></h2>
                 <div>{{ post.content }}</div>
             </div>
             {% endfor %}
