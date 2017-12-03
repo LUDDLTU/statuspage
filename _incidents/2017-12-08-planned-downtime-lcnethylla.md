@@ -1,6 +1,9 @@
 ---
-title: '[Planned] Downtime lcnet non-racked servers'
+title: '[Scheduled] Downtime lcnet non-racked servers'
 ---
+Status: Scheduled
+Scope: Colocation
+
 **Description:**
 
     All non-racked servers will be moved to a new shelf, and power and network will be recabled.
