@@ -1,4 +1,5 @@
 ---
 title: 'userwww.ludd.ltu.se'
-status: 'running. OK'
+status: 'degraded'
+color: 'warning'
 ---

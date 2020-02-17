@@ -1,4 +1,5 @@
 ---
 title: 'vortex.ludd.ltu.se'
-status: 'membership system. OK'
+status: 'membership system. degraded'
+color: 'warning'
 ---
